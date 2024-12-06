@@ -9,19 +9,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="imageGalary">
+    <!-- Checkbox for modal -->
+    <input type="checkbox" id="MNmodal" class="MNmodal">
+    <!-- Header -->
+    <header class="MNheader">
+        <label for="MNmodal"><i class="fa-solid fa-bars"></i></label>
+    </header>
+    <!-- Main -->
+    <main class="imageGalary">
         <h1>Image galary</h1>
+        <!-- Image row 1 -->
         <div class="imgContainer">
             <a href="PictureDetail/1.html" class="imagesLink"><img src="img/1.png" alt="" class="images imgProperty"></a>
             <a href="PictureDetail/2.html" class="imagesLink"><img src="img/2.png" alt="" class="images imgProperty"></a>
             <a href="PictureDetail/3.html" class="imagesLink"><img src="img/3.png" alt="" class="images imgProperty"></a>
             <a href="PictureDetail/4.html" class="imagesLink"><img src="img/4.png" alt="" class="images imgProperty"></a>
         </div>
+        <!-- Image row 2 -->
         <div class="imgContainer">
             <a href="PictureDetail/5.html" class="imagesLink"><img src="img/5.png" alt="" class="images imgProperty"></a>
             <a href="PictureDetail/6.html" class="imagesLink"><img src="img/6.png" alt="" class="images imgProperty"></a>
             <a href="PictureDetail/7.html" class="imagesLink"><img src="img/7.png" alt="" class="images imgProperty"></a>
             <a href="PictureDetail/8.html" class="imagesLink"><img src="img/8.png" alt="" class="images imgProperty"></a>
+        </div>
+    </main>
+    <!-- Modal -->
+    <div class="modal">
+        <div class="modalBackround">
+            <a href="/PictureDetail/1.html" class="dropDownTxt">Image 1</a>
+            <a href="/PictureDetail/2.html" class="dropDownTxt">Image 2</a>
+            <a href="/PictureDetail/3.html" class="dropDownTxt">Image 3</a>
+            <a href="/PictureDetail/4.html" class="dropDownTxt">Image 4</a>
+            <a href="/PictureDetail/5.html" class="dropDownTxt">Image 5</a>
+            <a href="/PictureDetail/6.html" class="dropDownTxt">Image 6</a>
+            <a href="/PictureDetail/7.html" class="dropDownTxt">Image 7</a>
+            <a href="/PictureDetail/8.html" class="dropDownTxt">Image 8</a>
         </div>
     </div>
     <!-- Script -->
